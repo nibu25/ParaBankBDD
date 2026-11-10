@@ -69,4 +69,5 @@ public class GrawCalcpage {
     private String text(String label) {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(valueFor(label))).getText();
     }
+    //check git push from intrllij
 }
