@@ -8,5 +8,5 @@ Feature: Groww EMI calculator
     Then I should see the EMI details as monthly EMI "<emi>", principal amount "<loanAmount>", total interest "<interest>" and total amount "<totalAmount>"
 
     Examples:
-      | loanAmount | rate | tenure | emi   | interest | totalAmount |
-      | 1000000    | 6.5  | 2      | 44546 | 69110    | 1069110     |
+      | loanAmount | rate | tenure | emi  | interest | totalAmount |
+      | 300000     | 7.5  | 10     | 3561 | 127326   | 427326      |
